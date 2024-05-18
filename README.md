@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
+  
 </p>
 <p align="center">
-    <h1 align="center">HOMEIO-ALEXA</h1>
+    <h1 align="center">HomeIO-Alexa</h1>
 </p>
 <p align="center">
-    <em>Control Home, Control Life with Seamless Flow"This slogan aims to capture the essence of the homeio-alexa project: enabling users to seamlessly integrate their home automation system with Alexa, controlling various devices, and streamlining their daily lives.By using simple yet descriptive words like Seamless", Flow, and Control, I hope to convey the idea that this project is all about making life easier for homeowners by bridging the gap between smart technology and everyday living.</em>
+    <em>
+    "Control Home, Control Life with Seamless Flow"
+    <br>This slogan aims to capture the essence of the homeio-alexa project: enabling users to seamlessly integrate their home automation system with Alexa, controlling various devices, and streamlining their daily lives.By using simple yet descriptive words like Seamless", Flow, and Control, I hope to convey the idea that this project is all about making life easier for homeowners by bridging the gap between smart technology and everyday living.</em>
 </p>
 <p align="center">
 	<!-- local repository, no metadata badges. -->
@@ -44,7 +46,7 @@ Homeio-Alexa is an open-source project for ESP32 that enables seamless integrati
 
 | Feature | Description |
 |---------|---------------------------------------------------------------|
-| ⚙️ **Architecture** | The project architecture is a C++/C-based system that utilizes fauxmoESP library for home automation integration with Alexa. It establishes WiFi connectivity, initializes the fauxmoESP server on port 80, and defines callbacks for handling commands and device states. |
+| ⚙️ **Architecture** | The project architecture is a C++/C-based system that utilizes ESP32 hardware and fauxmoESP library for home automation integration with Alexa. It establishes WiFi connectivity, initializes the fauxmoESP server on port 80, and defines callbacks for handling commands and device states. |
 | 🔩 **Code Quality** | The code quality appears to be moderate, with proper use of comments to explain specific code blocks. The project seems to follow standard coding practices and adheres to good software development principles. However, further review would be necessary to determine the overall code quality. |
 | 📄 **Documentation** | Documentation is sparse but provides some insight into specific files. The include/credentials.h.example file has a brief description of its purpose, while the main.cpp file includes a summary of its functionality. Additional documentation would improve understanding and maintenance of the project. |
 | 🔌 **Integrations** | The project integrates with Alexa using fauxmoESP library for home automation control. It also relies on C++/C programming languages to manage hardware configurations (include/hw_config.h) and implement LED output control in main.cpp. External dependencies include WiFi connectivity and ESP libraries. |
